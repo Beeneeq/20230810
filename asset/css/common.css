@@ -576,13 +576,10 @@ footer .footer-fixed ul li:nth-of-type(2) a:before {background-image:url('../ima
 .method-box ul li:nth-of-type(1) {width:100%; margin:0 0 10px;}
 .method-box ul li:nth-of-type(2) {width:calc(50% - 5px); margin:0 5px 0 0;}
 .method-box ul li:nth-of-type(3) {width:calc(50% - 5px); margin:0 0 0 0 5px;}
-.method-box ul li:nth-of-type(1) a:before {background-image:url('../images/icon_method_01.png');} 
-.method-box ul li:nth-of-type(2) a:before {background-image:url('../images/icon_method_02.png');} 
-.method-box ul li:nth-of-type(3) a:before {background-image:url('../images/icon_method_03.png');} 
-.method-box ul li.on a {background: #DC3347;border-color: #DC3347;color: #fff;}
-.method-box ul li.on:nth-of-type(1) a:before {background-image:url('../images/icon_method_01_on.png');} 
-.method-box ul li.on:nth-of-type(2) a:before {background-image:url('../images/icon_method_02_on.png');} 
-.method-box ul li.on:nth-of-type(3) a:before {background-image:url('../images/icon_method_03_on.png');} 
+.method-box ul li a {background: #DC3347;border-color: #DC3347;color: #fff;}
+.method-box ul li:nth-of-type(1) a:before {background-image:url('../images/icon_method_01_on.png');} 
+.method-box ul li:nth-of-type(2) a:before {background-image:url('../images/icon_method_02_on.png');} 
+.method-box ul li:nth-of-type(3) a:before {background-image:url('../images/icon_method_03_on.png');} 
 
 
 @media (max-width:767px){
