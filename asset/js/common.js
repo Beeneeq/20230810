@@ -141,11 +141,17 @@ $(function() {
 
 $(document).ready(function() {
 
+	// 0830 자세히보기 버튼
+
+	$('.btn-more').on('click', function() {
+		$(this).next().slideToggle();
+		$(this).toggleClass('off');
+	})
+
 	// 결제수단 선택
 
 	$('.method-box ul li a').on('click', function() {
 		$('.method-box ul li').removeClass('on');
 		$(this).closest('li').addClass('on');
-		console.log(111)
 	})
 });

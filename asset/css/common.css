@@ -364,6 +364,9 @@ footer .footer-fixed ul li:nth-of-type(2) a:before {background-image:url('../ima
     background: #fff;
     border: 1px solid #ccc;
 }
+.button-box .btn.btn-white:active {
+    background:#DC3347; color:#fff;
+}
 .button-box .btn.btn-s {
     height: 40px;
     font-size: 16px;
@@ -401,6 +404,11 @@ footer .footer-fixed ul li:nth-of-type(2) a:before {background-image:url('../ima
     height: 12px;
     margin-left: 5px;
     background: url('../images/icon_close_up.png') no-repeat center / contain;
+    transition: all .5s ease;
+}
+
+.btn-more.off::after {
+    transform: scaleY(-1);
 }
 
 @media (max-width:767px){
@@ -571,7 +579,7 @@ footer .footer-fixed ul li:nth-of-type(2) a:before {background-image:url('../ima
 .method-box ul li:nth-of-type(1) a:before {background-image:url('../images/icon_method_01.png');} 
 .method-box ul li:nth-of-type(2) a:before {background-image:url('../images/icon_method_02.png');} 
 .method-box ul li:nth-of-type(3) a:before {background-image:url('../images/icon_method_03.png');} 
-.method-box ul li.on a {background: #DC3347; color: #fff;}
+.method-box ul li.on a {background: #DC3347;border-color: #DC3347;color: #fff;}
 .method-box ul li.on:nth-of-type(1) a:before {background-image:url('../images/icon_method_01_on.png');} 
 .method-box ul li.on:nth-of-type(2) a:before {background-image:url('../images/icon_method_02_on.png');} 
 .method-box ul li.on:nth-of-type(3) a:before {background-image:url('../images/icon_method_03_on.png');} 
