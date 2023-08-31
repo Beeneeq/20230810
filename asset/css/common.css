@@ -385,7 +385,7 @@ footer .footer-fixed ul li:nth-of-type(2) a:before {background-image:url('../ima
 
 .btn-line {
     border: 2px solid #fff;
-    border-radius: 14px;
+    border-radius: 7px;
     padding: 10px 15px;
     color: #fff;
 }
