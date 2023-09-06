@@ -491,32 +491,50 @@ footer .footer-fixed ul li:nth-of-type(2) a:before {background-image:url('../ima
     }
     .total-box .price {
         margin-right: 20px;
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 
-/* .total-box ul {width:100%; display:flex; flex-wrap:wrap; align-items:center; justify-content:center;}
-.total-box ul li {display:flex; flex-wrap:wrap; align-items:center;}
+.total-box ul {width:100%; display:flex; flex-wrap:wrap; align-items:center; justify-content:center;}
+
+.total-box .info-content {
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+}
+
+.total-box .info-content span {
+    font-size: 18px;
+}
+
+/* .total-box ul li {display:flex; flex-wrap:wrap; align-items:center;}
 .total-box ul li:after {display:inline-block; content:""; width:1px; height:40px; background:#6E91D6; margin:0 24px;}
 .total-box ul li:last-of-type:after {display:none;}
 .total-box ul li:last-of-type div:last-child {margin-left: 30px;}
 .total-box ul li div small {display:block; font-size:12px; font-weight:600; color:#fff;}
 .total-box ul li div time {display:block;font-size: 20px;font-weight:600;color:#fff;margin:3px 0 0;}
 .total-box ul li div time span {vertical-align: middle;}
-.total-box ul li em {font-size:24px; font-weight:600; color:#fff; margin:0 5px; position:relative; top:5px;}
+.total-box ul li em {font-size:24px; font-weight:600; color:#fff; margin:0 5px; position:relative; top:5px;} */
 .total-box a.edit {position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:0;width:42px;height:42px;border-radius:50%;background: #345dab url(../images/icon_write.png) no-repeat center / 24px;border: 2px solid #fff;}
 
 
-@media (max-width:767px){
-.total-box ul li {width:100%; justify-content:flex-start;}
+@media (max-width:440px){
+    .total-box .info-content {
+        font-size: 14px;
+    }
+    
+    .total-box .info-content span {
+        font-size: 14px;
+    }
+/* .total-box ul li {width:100%; justify-content:flex-start;}
 .total-box ul li:after {display:none;}
 .total-box ul li:last-of-type {justify-content:flex-start; margin:10px 0 0;}
 .total-box ul li:last-of-type div:last-child {margin-left: 84px}
-.total-box ul li div time {font-size: 18px;}
+.total-box ul li div time {font-size: 18px;} */
 .total-box a.edit {width:35px; height:35px; background-size:20px;}
 }
 
- */
+
 
 /* price-box */
 .price-box {position:relative;}
